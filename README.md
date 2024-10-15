@@ -20,8 +20,19 @@ halv = get_full_pipline(model, param_grid, search='halving')pipline = get_full_p
 ```
 There are 3 types of searching algorythms. 
 
-2. Run 'python run.py model' to start search script.
+2. Start search script.
 
-3. You can also run train.py to train your model. There is parameter n to enlarge train set.
+```bash 
+python run.py model
+```
+4.  Train your model. There is parameter n to enlarge train set.
 
-4. After all these tasks you may use gradio GUI to observe you models and get results. 
+```bash
+python train.py model
+```
+
+6. After all these tasks you may use gradio GUI to observe you models and get results.
+
+```bash
+python grad.py
+```
